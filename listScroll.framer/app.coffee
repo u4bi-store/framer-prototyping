@@ -3,7 +3,6 @@ layerA = new Layer
 	y:0
 	width:250
 	height:350
-# 	backgroundColor: "#FF0000"
 	
 scroll = new ScrollComponent
     superLayer: layerA
@@ -12,8 +11,6 @@ scroll = new ScrollComponent
     width:710
     height:300
     scrollHorizontal: false
-    
-# some ocntent to make it scroll
 
 todoArray = []
 
@@ -56,5 +53,4 @@ showMenu = (event, layer) ->
             x: data.x
             opacity: data.opacity
      
-     print layer.animate
      todoArray[layer.name].flag = !todoArray[layer.name].flag
