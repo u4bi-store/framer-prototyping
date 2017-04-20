@@ -1,5 +1,6 @@
 # 배경 레이어 생성 
-bg = new BackgroundLayer backgroundColor: "#FF00FF" # 배경색 정의
+bg = new BackgroundLayer
+    backgroundColor: "#FF00FF" # 배경색 정의
  
 # 레이어 생성
 layerA = new Layer
